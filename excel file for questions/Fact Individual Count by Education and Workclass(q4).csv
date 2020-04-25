@@ -1,0 +1,5 @@
+﻿Education,Marital Status,Relationships,Income Bracket,Fact Individual Count,Workclass
+ HS-grad, Not-in-family, Divorced, >50K,38, Private
+ HS-grad, Unmarried, Divorced, >50K,12, Private
+ HS-grad, Other-relative, Divorced, >50K,1, Private
+ HS-grad, Own-child, Divorced, >50K,1, Private

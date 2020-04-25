@@ -1,0 +1,7 @@
+﻿Workclass,Fact Individual Count,Income Bracket
+ Local-gov,1458, <=50K
+ State-gov,935, <=50K
+ Local-gov,609, >50K
+ Federal-gov,578, <=50K
+ Federal-gov,365, >50K
+ State-gov,344, >50K

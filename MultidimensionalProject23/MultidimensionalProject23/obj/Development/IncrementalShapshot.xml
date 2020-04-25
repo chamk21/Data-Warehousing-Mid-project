@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject23</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>CCTIFxoai0XtpoVwBHPtH3RwwGM=4/24/2020 3:33:10 PM4/24/2020 3:33:09 PM</TimeStamp>
+        <ID>
+          <String>Project1DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>k3V/jedHjRXs+SRiZ4x9/QYNESU=4/24/2020 3:35:39 PM4/24/2020 3:35:38 PM</TimeStamp>
+        <ID>
+          <String>Project1DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+KC3hHqIFuDMZQO3bufztW6wSUM=4/24/2020 3:40:51 PM4/24/2020 3:36:50 PM</TimeStamp>
+        <ID>
+          <String>Education</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8Q1g8AODQzOYk9U+PszuL3snBn0=4/24/2020 3:41:50 PM4/24/2020 3:36:50 PM</TimeStamp>
+        <ID>
+          <String>Income</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tBr1ea42D4TdWWLmn2otXml0+6c=4/24/2020 3:43:25 PM4/24/2020 3:36:50 PM</TimeStamp>
+        <ID>
+          <String>Employement</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yAcouuggHSphH9iCrLfaUKpvEjE=4/24/2020 4:55:45 PM4/24/2020 3:36:50 PM</TimeStamp>
+        <ID>
+          <String>Family</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xi2nm08LVrdjDKjeW0mHHvp2w3c=4/24/2020 4:52:10 PM4/24/2020 3:36:50 PM</TimeStamp>
+        <ID>
+          <String>Personal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0VPDIi9rquvPYFnkN8PBFbY3lZQ=4/24/2020 4:52:10 PM4/24/2020 3:36:49 PMQ7Bs+6ZudI2627USlHw11H6tjUY=4/24/2020 3:36:50 PM4/24/2020 3:36:49 PM</TimeStamp>
+        <ID>
+          <String>Project1DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>1ZZQs7RbdxJswjPHf8JQ5Y0YGRQ=4/24/2020 3:29:25 PM4/24/2020 3:29:24 PM</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject23</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-04-24T08:57:20.356667Z</LastDeployed>
+</DeploymentSnapshot>
